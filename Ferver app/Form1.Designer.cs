@@ -32,6 +32,7 @@
             this.txtboxUserTemp = new System.Windows.Forms.TextBox();
             this.lblTempDisplay = new System.Windows.Forms.Label();
             this.btnCheck = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblQuestion
@@ -69,11 +70,22 @@
             this.btnCheck.UseVisualStyleBackColor = true;
             this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(180, 434);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 4;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(267, 469);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.lblTempDisplay);
             this.Controls.Add(this.txtboxUserTemp);
@@ -91,5 +103,6 @@
         private System.Windows.Forms.TextBox txtboxUserTemp;
         private System.Windows.Forms.Label lblTempDisplay;
         private System.Windows.Forms.Button btnCheck;
+        private System.Windows.Forms.Button btnExit;
     }
 }

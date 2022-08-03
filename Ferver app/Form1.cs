@@ -34,5 +34,10 @@ namespace Ferver_app
                 MessageBox.Show("You are fine well.");
             }
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
