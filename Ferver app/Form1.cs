@@ -31,7 +31,7 @@ namespace Ferver_app
             else if (temp < 38)
             {
                 lblTempDisplay.Text = ("Your temperature is " + temp).ToString();
-                MessageBox.Show("You are fine well.");
+                MessageBox.Show("You are fine!");
             }
         }
 
