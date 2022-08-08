@@ -39,5 +39,10 @@ namespace Ferver_app
         {
             this.Close();
         }
+
+        private void btnRedirectLink_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://sacoronavirus.co.za/");
+        }
     }
 }
